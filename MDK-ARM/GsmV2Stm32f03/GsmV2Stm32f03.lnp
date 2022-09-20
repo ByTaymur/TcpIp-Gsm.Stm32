@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"gsmv2stm32f03\startup_stm32f030x6.o"
+"gsmv2stm32f03\main.o"
+"gsmv2stm32f03\stm32f0xx_it.o"
+"gsmv2stm32f03\stm32f0xx_hal_msp.o"
+"gsmv2stm32f03\stm32f0xx_hal_i2c.o"
+"gsmv2stm32f03\stm32f0xx_hal_i2c_ex.o"
+"gsmv2stm32f03\stm32f0xx_hal_rcc.o"
+"gsmv2stm32f03\stm32f0xx_hal_rcc_ex.o"
+"gsmv2stm32f03\stm32f0xx_hal.o"
+"gsmv2stm32f03\stm32f0xx_hal_gpio.o"
+"gsmv2stm32f03\stm32f0xx_hal_dma.o"
+"gsmv2stm32f03\stm32f0xx_hal_cortex.o"
+"gsmv2stm32f03\stm32f0xx_hal_pwr.o"
+"gsmv2stm32f03\stm32f0xx_hal_pwr_ex.o"
+"gsmv2stm32f03\stm32f0xx_hal_flash.o"
+"gsmv2stm32f03\stm32f0xx_hal_flash_ex.o"
+"gsmv2stm32f03\stm32f0xx_hal_exti.o"
+"gsmv2stm32f03\stm32f0xx_hal_tim.o"
+"gsmv2stm32f03\stm32f0xx_hal_tim_ex.o"
+"gsmv2stm32f03\stm32f0xx_hal_uart.o"
+"gsmv2stm32f03\stm32f0xx_hal_uart_ex.o"
+"gsmv2stm32f03\system_stm32f0xx.o"
+--strict --scatter "GsmV2Stm32f03\GsmV2Stm32f03.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GsmV2Stm32f03.map" -o GsmV2Stm32f03\GsmV2Stm32f03.axf
