@@ -1,2 +1,6 @@
 # TcpIp-Gsm.Stm32
-stm32 to Tcp connet
+Bu proje, STM32 mikrodenetleyiciyi kullanarak bir SIM800 GSM modülü ile iletişim kurmayı ve TCP bağlantıları oluşturmayı hedeflemektedir. GSM modülleri, uzaktan veri iletimi ve iletişim için ideal olan mobil iletişim ağına (GSM) erişim sağlayan cihazlardır. Bu proje, bu tür bir modül olan SIM800'ü kullanarak, mikrodenetleyici tabanlı bir sistemle veri iletişimini mümkün kılmayı amaçlamaktadır.
+
+Ayrıca, projenin bir diğer önemli hedefi, I2C (Inter-Integrated Circuit) ile pin çoğaltma işlemidir. I2C, mikrodenetleyici ile çeşitli cihazlar arasında seri veri iletişimi sağlayan bir haberleşme protokolüdür. Bu projede, I2C üzerinden bağlanan cihazlar aracılığıyla giriş/çıkış pinlerinin sayısını artırmak veya kontrol etmek amaçlanmaktadır. Bu, projenin genel işlevselliğini artırmak ve farklı sensörler, ekranlar veya diğer periferik cihazlarla iletişim kurmayı mümkün kılmaktadır.
+
+Bu iki ana hedef, STM32 mikrodenetleyiciyi kullanarak bir SIM800 GSM modülüne bağlanmayı ve aynı zamanda I2C ile pin çoğaltma işlemini gerçekleştirmeyi içeren karmaşık bir elektronik sistem oluşturmayı amaçlamaktadır. Bu sayede, uzaktan veri iletimi, izleme veya kontrol uygulamaları gibi birçok farklı projeye olanak tanır. Bu projenin sonucunda, güvenilir ve etkili bir şekilde GSM ağı üzerinden veri iletişimi sağlanabilir ve mikrodenetleyici tabanlı sistemler için daha fazla giriş/çıkış seçeneği sunulabilir.
